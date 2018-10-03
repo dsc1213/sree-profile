@@ -1,0 +1,20 @@
+{
+  "name": "sree-profile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dsc1213/sree-profile.git",
+  "author": "Sree Damodara <sree-charan.damodara@hpe.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel './index.html' --open",
+    "build": "parcel build './index.html'"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel": "^1.10.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
