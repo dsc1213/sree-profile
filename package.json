@@ -6,8 +6,8 @@
   "author": "Sree Damodara <sree-charan.damodara@hpe.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel './index.html' --open",
-    "build": "parcel build './index.html'"
+    "dev": "parcel ./index.html --open",
+    "build": "parcel build ./index.html"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
